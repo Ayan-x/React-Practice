@@ -23,6 +23,11 @@ function App() {
     },
     [length,numberAllowed,charAllowed,setPassword],
   )
+  // The main thing of useEffect that it will run methoc for 
+  // first time when it get rendered then it there will be 
+  // any changes in dependencies it will again call the 
+  // function.
+
    useEffect(()=>{
     PasswordGenerator()
    },[length,numberAllowed,charAllowed,PasswordGenerator]) 
