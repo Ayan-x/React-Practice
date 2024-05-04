@@ -64,6 +64,11 @@ function App() {
          >
           copy
         </button>
+        <button
+        onClick={PasswordGenerator} 
+        className='bg-white rounded-lg p-3 m-2'>
+          New 
+        </button>
         </div>
         <div className='flex text-sm gap-x-2 text-yellow-400'>
         <div className='flex items-center gap-x-1'>
